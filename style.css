@@ -1,0 +1,40 @@
+body{
+    color: blue;
+    background: rgb(45, 27, 206);
+    margin:0px;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(35, 35, 182);
+    padding: 20px;
+    font-size: 32px;
+    color: rgba(0, 0, 255, 0.712);
+}
+    
+.chamada{
+    background:rgb(196, 19, 19);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 100px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+     display: flex;
+     overflow-x: auto;
+     gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
